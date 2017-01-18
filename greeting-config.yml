@@ -22,7 +22,7 @@ security:
 
 management:
   security:
-    enabled: fasle # turn off actuator endpoints security  
+    enabled: false # turn off actuator endpoints security  
 ---
 
 spring:
