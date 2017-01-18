@@ -1,2 +1,28 @@
+# Service Description
+info:
+  component: greeting-config demo
+
+# End points configuration
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+     
+# HTTP server port
+server:
+  port: 1111
+
+#security:
+#  user:
+#    password: password
+    
+---
+
+spring:
+  profiles: development
+  
 server:
   port: 1111
