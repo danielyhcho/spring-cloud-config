@@ -30,7 +30,7 @@ logging:
       pivotal: DEBUG
 
 greeting:
-  displayFortune: false
+  displayFortune: true
 
 quoeServiceURL: http://quote-service-dev.cfapps.io/quote
 
