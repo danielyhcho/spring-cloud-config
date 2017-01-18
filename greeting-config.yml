@@ -15,6 +15,14 @@ endpoints:
 server:
   port: 1111
 
+# Alter security default behavior
+security:
+  basic:
+    enabled: false # turn off application security
+
+management:
+  security:
+    enabled: fasle # turn off actuator endpoints security  
 ---
 
 spring:
