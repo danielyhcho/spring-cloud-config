@@ -15,10 +15,6 @@ endpoints:
 server:
   port: 1111
 
-#security:
-#  user:
-#    password: password
-    
 ---
 
 spring:
