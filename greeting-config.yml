@@ -32,7 +32,7 @@ logging:
 greeting:
   displayFortune: true
 
-quoeServiceURL: http://quote-service-dev.cfapps.io/quote
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
 
 ---
 
