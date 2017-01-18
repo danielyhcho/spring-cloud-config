@@ -23,6 +23,17 @@ security:
 management:
   security:
     enabled: false # turn off actuator endpoints security  
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+
+greeting:
+  displayFortune: false
+
+quoeServiceURL: http://quote-service-dev.cfapps.io/quote
+
 ---
 
 spring:
