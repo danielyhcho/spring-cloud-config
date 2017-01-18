@@ -37,7 +37,7 @@ quoteServiceURL: http://quote-service-dev.cfapps.io/quote
 ---
 
 spring:
-  profiles: development
+  profiles: qa
   
 server:
   port: 1111
