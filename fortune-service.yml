@@ -1,0 +1,12 @@
+# Service Description
+info:
+  component: service registry and discovery demo
+
+# End points configuration
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
