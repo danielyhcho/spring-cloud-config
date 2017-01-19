@@ -1,0 +1,14 @@
+# Alter security default behavior
+security:
+  basic:
+    enabled: false # turn off application security
+
+management:
+  security:
+    enabled: false # turn off actuator endpoints security  
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+      #pivotal: INFO

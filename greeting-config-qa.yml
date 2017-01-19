@@ -11,10 +11,6 @@ endpoints:
   health:
     sensitive: false
      
-# HTTP server port
-server:
-  port: 1111
-
 # Alter security default behavior
 security:
   basic:
