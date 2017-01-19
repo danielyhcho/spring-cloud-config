@@ -23,7 +23,8 @@ management:
 logging:
   level:
     io:
-      pivotal: DEBUG
+      #pivotal: DEBUG
+      pivotal: INFO
 
 greeting:
   displayFortune: true
